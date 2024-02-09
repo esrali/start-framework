@@ -1,0 +1,19 @@
+nav{
+  background-color: #2C3E50;
+  color:white !important;
+}
+
+a{
+  color:inherit;
+  font-weight: 700;
+}
+.navbar-brand{
+  font-size: 32px;
+
+}
+nav a:hover{
+  color:white !important;
+}
+.act{
+  background-color: #1ABC9C;
+}

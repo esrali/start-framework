@@ -1,0 +1,28 @@
+.line1,.line2{
+  width: 80px;
+  height:4px;
+  background-color: #2C3E50;
+}
+section{
+  height:95vh;
+  margin-top: 130px;
+}
+h1{
+  font-weight: 700;
+  color:#2C3E50
+}
+i{
+  color: #2C3E50;
+}
+label{
+  color: #1ABC9C;
+  visibility: hidden;
+
+}
+form{
+  width:60%;
+}
+input{
+  border-color:none !important;
+  box-shadow: none !important;
+}

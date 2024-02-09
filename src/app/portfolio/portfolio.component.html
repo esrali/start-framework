@@ -1,0 +1,30 @@
+<section class="container">
+  <div class="text-center mb-2">
+    <h1 >PORTFOLIO COMPONENT</h1>
+    <div class="d-flex justify-content-center align-items-center ">
+      <div class="line1"></div>
+      <i class="fa-solid fa-star mx-3"></i>
+      <div class="line2"></div>
+    </div>
+  </div>
+  <div class="row g-5 mb-5 ">
+    <div class="col-lg-4" *ngFor="let item of images">
+      <div class="position-relative rounded-2 content" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img [src]="item.img" alt="img1" class="img-fluid rounded-2" >
+        <div class="overlay  justify-content-center align-items-center position-absolute rounded-2" (click)="display(item)">
+          <i class="fa-solid fa-plus fa-7x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Modal -->
+<div class="modal bg-info bg-opacity-25" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content ">
+      <div class="modal-body d-flex align-items-center">
+        <img [src]=path class="img-fluid" alt="img " >
+      </div>
+    </div>
+  </div>
+</div>
+</section>

@@ -1,0 +1,14 @@
+footer
+{
+  background-color: #2C3E50;
+  color:white;
+}
+footer ul i{
+border-radius: 50%;
+border: white 1px solid;
+color:white;
+padding:10px;
+}
+.copy{
+  background-color: #1A252F;
+}
